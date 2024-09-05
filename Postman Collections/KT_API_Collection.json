@@ -1,0 +1,190 @@
+{
+	"info": {
+		"_postman_id": "07727cc1-3fbf-4931-8074-30fe976671e9",
+		"name": "KT API's",
+		"description": "KhaleejTimes API's for frontend development",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetMenuGroups",
+			"id": "81c3a3e5-cd83-4264-ab75-7275f84a3966",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://khaleejtimes-web.qtstage.io/contentapi/v1/getmenugroups"
+			},
+			"response": []
+		},
+		{
+			"name": "GetHomeCollection",
+			"id": "4ee60e0b-084e-483a-81b5-f159affbb0e1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://khaleejtimes-web.qtstage.io/contentapi/v1/gethomecollection"
+			},
+			"response": []
+		},
+		{
+			"name": "GetCollectionSections",
+			"id": "693bc671-bffb-4798-b6a2-4f8638904e54",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://khaleejtimes-web.qtstage.io/contentapi/v1/getcollectionsections/uae",
+				"description": "Here 'uae' is the collection_slug."
+			},
+			"response": []
+		},
+		{
+			"name": "GetCollectionStories",
+			"id": "b057c48a-119a-4a63-9222-581516f3ceea",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://khaleejtimes-web.qtstage.io/contentapi/v1/getcollectionstories/uae?page=2&records=2",
+					"protocol": "https",
+					"host": [
+						"khaleejtimes-web",
+						"qtstage",
+						"io"
+					],
+					"path": [
+						"contentapi",
+						"v1",
+						"getcollectionstories",
+						"uae"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "2"
+						},
+						{
+							"key": "records",
+							"value": "2"
+						}
+					]
+				},
+				"description": "Here 'uae' is the collection_slug."
+			},
+			"response": []
+		},
+		{
+			"name": "GetStoryByID",
+			"id": "17a53642-1400-46e1-a30d-beda49f3c53f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://khaleejtimes-web.qtstage.io/contentapi/v1/getstorybyid/e5cf5d3e-547c-4034-89c4-82db5f434526",
+				"description": "Here 'e5cf5d3e-547c-4034-89c4-82db5f434526' is the story_id."
+			},
+			"response": []
+		},
+		{
+			"name": "GetStoryBySlug",
+			"id": "8c940e65-75ca-456f-8c6f-b8d2e1cd07b8",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://khaleejtimes-web.qtstage.io/contentapi/v1/getstorybyslug/uae-india-flights-major-airline-reduces-airfares-for-travellers-without-check-in-baggage",
+				"description": "Here 'uae-india-flights-major-airline-reduces-airfares-for-travellers-without-check-in-baggage' is the story_slug."
+			},
+			"response": []
+		},
+		{
+			"name": "AdvancedSearch",
+			"id": "214833a1-3761-4a1e-9d8d-91675b3ad6b8",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://khaleejtimes-web.qtstage.io/contentapi/v1/searchstories?query=dubai&type&sort&published_after&published_before&author&tag&page&records",
+					"protocol": "https",
+					"host": [
+						"khaleejtimes-web",
+						"qtstage",
+						"io"
+					],
+					"path": [
+						"contentapi",
+						"v1",
+						"searchstories"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "dubai",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": null,
+							"type": "text"
+						},
+						{
+							"key": "sort",
+							"value": null,
+							"type": "text"
+						},
+						{
+							"key": "published_after",
+							"value": null,
+							"type": "text"
+						},
+						{
+							"key": "published_before",
+							"value": null,
+							"type": "text"
+						},
+						{
+							"key": "author",
+							"value": null,
+							"type": "text"
+						},
+						{
+							"key": "tag",
+							"value": null,
+							"type": "text"
+						},
+						{
+							"key": "page",
+							"value": null,
+							"type": "text"
+						},
+						{
+							"key": "records",
+							"value": null,
+							"type": "text"
+						}
+					]
+				},
+				"description": "Query params\n\n##### query\n\n- query term\n    \n\n##### author\n\n- filter stories by author slug provided\n    \n\n##### type\n\n- filter stories by story template like all, photo, video, text etc\n    \n\n##### published_before\n\n- filter stories published before a timestamp (should be 13 digits epoch)\n    \n\n##### published_after\n\n- filter stories published after a timestamp (should be 13 digits epoch)\n    \n\n##### tag\n\n- filter stories by tag slug\n    \n\n##### sort\n\n- true or false can be send to sort by `latest-published` , by default sort will be true"
+			},
+			"response": []
+		}
+	]
+}
