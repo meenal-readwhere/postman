@@ -197,6 +197,18 @@
 				"header": []
 			},
 			"response": []
+		},
+		{
+			"name": "Login",
+			"id": "553a147e-10e7-490d-98ce-9d8119b351d2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
