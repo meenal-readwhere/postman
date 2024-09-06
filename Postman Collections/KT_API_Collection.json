@@ -185,6 +185,18 @@
 				"description": "Query params\n\n##### query\n\n- query term\n    \n\n##### author\n\n- filter stories by author slug provided\n    \n\n##### type\n\n- filter stories by story template like all, photo, video, text etc\n    \n\n##### published_before\n\n- filter stories published before a timestamp (should be 13 digits epoch)\n    \n\n##### published_after\n\n- filter stories published after a timestamp (should be 13 digits epoch)\n    \n\n##### tag\n\n- filter stories by tag slug\n    \n\n##### sort\n\n- true or false can be send to sort by `latest-published` , by default sort will be true"
 			},
 			"response": []
+		},
+		{
+			"name": "SignUp",
+			"id": "f9706ad0-d221-479d-b28c-fbd0c89a1d3d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
