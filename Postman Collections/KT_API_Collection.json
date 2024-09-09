@@ -194,7 +194,17 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"john2doe@example.com\",\n  \"password\": \"password\",\n  \"first-name\": \"john\",\n  \"last-name\": \"doe\",\n  \"username\": \"john2\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000/signup"
 			},
 			"response": []
 		},
