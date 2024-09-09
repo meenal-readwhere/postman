@@ -197,7 +197,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"email\": \"john4doe@example.com\",\n  \"password\": \"password\",\n  \"first-name\": \"john\",\n  \"last-name\": \"doe\",\n  \"username\": \"john4\",\n  \"dont-login\":\"false\"\n}\n",
+					"raw": "{\n  \"email\": \"meenal.singh@mediologysoftware.com\",\n  \"password\": \"password\",\n  \"first-name\": \"john\",\n  \"last-name\": \"doe\",\n  \"username\": \"meenal\",\n  \"dont-login\":\"false\"\n}\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -211,6 +211,18 @@
 		{
 			"name": "Login",
 			"id": "553a147e-10e7-490d-98ce-9d8119b351d2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "SocialLogin",
+			"id": "8e84f499-d4fd-411a-a026-0a9de317eb9b",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
