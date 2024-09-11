@@ -253,6 +253,41 @@
 				"url": "https://khaleejtimes-web.qtstage.io/api/auth/v1/login/facebook"
 			},
 			"response": []
+		},
+		{
+			"name": "GetOauthToken",
+			"id": "fbd674b2-dde3-4a91-8c46-d8a31e5518bc",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://khaleejtimes-web.qtstage.io/api/auth/v1/access-token/integrations/:integrationId",
+					"protocol": "https",
+					"host": [
+						"khaleejtimes-web",
+						"qtstage",
+						"io"
+					],
+					"path": [
+						"api",
+						"auth",
+						"v1",
+						"access-token",
+						"integrations",
+						":integrationId"
+					],
+					"variable": [
+						{
+							"key": "integrationId",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
