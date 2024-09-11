@@ -231,6 +231,18 @@
 				"header": []
 			},
 			"response": []
+		},
+		{
+			"name": "SocialLogin:Provider",
+			"id": "bba9e269-0474-4e93-9f08-08dff8e6dce0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
