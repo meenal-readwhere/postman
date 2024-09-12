@@ -288,6 +288,18 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "User",
+			"id": "e42ec846-04bd-43f3-abbd-adfd78596013",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
