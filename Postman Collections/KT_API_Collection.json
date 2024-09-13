@@ -253,14 +253,14 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"set-session\": true,\n  \"token\": \"cae3b7a9898af464d90b2afc46a6c15c5.0.svut.CcqXx3Wr0YBzUfaQEhqgQg\",\n  \"username\": \"John\"\n}",
+					"raw": "{\n  \"set-session\": true,\n  \"token\": \"cddaa826ff1a14a8e8092a95e314fc19e.0.prurq._rlPpYC3KiQe_VnNsmu0QQ\",\n  \"user\": {\n    \"first-name\": \"Ayush\",\n    \"last-name\": \"Gandhi\"\n  }\n}",
 					"options": {
 						"raw": {
 							"language": "json"
 						}
 					}
 				},
-				"url": "http://127.0.0.1:8000/api/auth/v1/social_login/apple"
+				"url": "https://khaleejtimes-web.qtstage.io/api/auth/v1/login/google"
 			},
 			"response": []
 		},
