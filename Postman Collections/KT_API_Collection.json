@@ -318,6 +318,19 @@
 				"disableBodyPruning": true
 			},
 			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "https://khaleejtimes-web.qtstage.io/api/auth/v1/delete_user"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "eb1d6e92-98d3-4f65-b177-b6a1588d002a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
 				"method": "GET",
 				"header": []
 			},
