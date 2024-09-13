@@ -197,14 +197,14 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"email\": \"meenal.singh@mediologysoftware.com\",\n  \"password\": \"password\",\n  \"first-name\": \"john\",\n  \"last-name\": \"doe\",\n  \"username\": \"meenal\",\n  \"dont-login\":\"false\"\n}\n",
+					"raw": "{\n  \"email\": \"johndoe@example.com\",\n  \"password\": \"password\",\n  \"first-name\": \"john\",\n  \"last-name\": \"doe\",\n  \"username\": \"john\",\n  \"dont-login\":\"false\"\n}\n",
 					"options": {
 						"raw": {
 							"language": "json"
 						}
 					}
 				},
-				"url": "http://127.0.0.1:8000/api/auth/v1/signup"
+				"url": "https://khaleejtimes-web.qtstage.io/api/auth/v1/signup"
 			},
 			"response": []
 		},
@@ -215,8 +215,18 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"johndoe@example.com\",\n  \"username\": \"john\",\n  \"password\": \"password\",\n  \"auto-signup\": false\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://khaleejtimes-web.qtstage.io/api/auth/v1/login"
 			},
 			"response": []
 		},
