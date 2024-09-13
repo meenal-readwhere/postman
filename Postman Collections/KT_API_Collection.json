@@ -310,6 +310,18 @@
 				"header": []
 			},
 			"response": []
+		},
+		{
+			"name": "DeleteUser",
+			"id": "ac9d8bf1-5e29-473c-8e9e-f01b231551b5",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
