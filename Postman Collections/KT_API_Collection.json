@@ -353,8 +353,18 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"confirm_password\": \"newPassword\",\n  \"token\": \"0aba6254-2e0f-40f7-add4-ab88d2e66ea2\",\n  \"new_password\": \"newPassword\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000/api/auth/v1/reset-password"
 			},
 			"response": []
 		}
