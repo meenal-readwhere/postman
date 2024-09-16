@@ -345,6 +345,18 @@
 				"url": "https://khaleejtimes-web.qtstage.io/api/auth/v1/forgot_password"
 			},
 			"response": []
+		},
+		{
+			"name": "ResetPswd",
+			"id": "f74bf053-115f-4a99-babf-6732e8bc87ac",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
