@@ -204,7 +204,7 @@
 						}
 					}
 				},
-				"url": "https://khaleejtimes-web.qtstage.io/api/auth/v1/signup"
+				"url": "https://khaleejtimes-web.qtstage.io/authapi/v1/signup"
 			},
 			"response": []
 		},
@@ -226,7 +226,7 @@
 						}
 					}
 				},
-				"url": "https://khaleejtimes-web.qtstage.io/api/auth/v1/login"
+				"url": "https://khaleejtimes-web.qtstage.io/authapi/v1/login"
 			},
 			"response": []
 		},
@@ -253,14 +253,14 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"set-session\": true,\n  \"token\": \"cddaa826ff1a14a8e8092a95e314fc19e.0.prurq._rlPpYC3KiQe_VnNsmu0QQ\",\n  \"user\": {\n    \"first-name\": \"Ayush\",\n    \"last-name\": \"Gandhi\"\n  }\n}",
+					"raw": "{\n  \"set-session\": true,\n  \"token\": \"EAAEveC4nmhcBAGgMVqKiNSsr5jNvW1wgOCQ2OUZBDNZAWOEYftlwap82R38DIqpOiFAshnaOCQKrK0MO2Mn1LySKCZBsw1UxSdpJeZBqDRLZBQBDtYkuL8su9KZAyPk53YY9ZBSvC9XZCZCjABEswA\",\n  \"username\": \"\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
 						}
 					}
 				},
-				"url": "https://khaleejtimes-web.qtstage.io/api/auth/v1/login/google"
+				"url": "https://khaleejtimes-web.qtstage.io/api/auth/v1/login/facebook"
 			},
 			"response": []
 		},
