@@ -238,7 +238,27 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "https://khaleejtimes-web.qtstage.io/authapi/v1/social_login?auth_provider=facebook",
+					"protocol": "https",
+					"host": [
+						"khaleejtimes-web",
+						"qtstage",
+						"io"
+					],
+					"path": [
+						"authapi",
+						"v1",
+						"social_login"
+					],
+					"query": [
+						{
+							"key": "auth_provider",
+							"value": "facebook"
+						}
+					]
+				}
 			},
 			"response": []
 		},
@@ -260,7 +280,7 @@
 						}
 					}
 				},
-				"url": "https://khaleejtimes-web.qtstage.io/api/auth/v1/login/facebook"
+				"url": "https://khaleejtimes-web.qtstage.io/authapi/v1/login/facebook"
 			},
 			"response": []
 		},
