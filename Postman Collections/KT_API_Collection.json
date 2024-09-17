@@ -362,7 +362,7 @@
 						}
 					}
 				},
-				"url": "https://khaleejtimes-web.qtstage.io/api/auth/v1/forgot_password"
+				"url": "https://khaleejtimes-web.qtstage.io/authapi/v1/forgot_password"
 			},
 			"response": []
 		},
