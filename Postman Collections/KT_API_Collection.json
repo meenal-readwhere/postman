@@ -387,6 +387,18 @@
 				"url": "http://127.0.0.1:8000/api/auth/v1/reset-password"
 			},
 			"response": []
+		},
+		{
+			"name": "RecommendedStories",
+			"id": "18addb9c-85d8-4147-b525-8afc42e28571",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
