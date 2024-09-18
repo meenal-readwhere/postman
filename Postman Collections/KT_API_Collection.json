@@ -294,10 +294,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://khaleejtimes-web.qtstage.io/api/auth/v1/access-token/integrations/:integrationId",
+					"raw": "https://khaleejtimes.qtstage.io/api/auth/v1/access-token/integrations/:integrationId",
 					"protocol": "https",
 					"host": [
-						"khaleejtimes-web",
+						"khaleejtimes",
 						"qtstage",
 						"io"
 					],
@@ -326,8 +326,15 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "qt-auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyOTY3OTE1LCJlbWFpbCI6ImpvaG5kb2VAZXhhbXBsZS5jb20iLCJhdmF0YXJfdXJsIjpudWxsLCJmaXJzdF9uYW1lIjoiam9obiIsImxhc3RfbmFtZSI6ImRvZSIsInJlYWxtX2lkIjo2NDk4NCwibmFtZSI6bnVsbCwibG9naW5fcGhvbmVfbnVtYmVyIjpudWxsfSwidGltZXN0YW1wIjoxNzI2MTIzMTM5NTE3LCJpYXQiOjE3MjYxMjMxMzl9.oa1bBEDnP5zIF4vwliNyaRrYSv26Sx09MFg8CTscR1w; Path=/; HttpOnly; Expires=Mon, 18 Jan 2038 00:00:00 GMT;",
+						"type": "text"
+					}
+				],
+				"url": "https://khaleejtimes-web.qtstage.io/api/auth/v1/user"
 			},
 			"response": []
 		},
@@ -355,7 +362,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"email\": \"meenal.singh@mediologysoftware.com\"\n}",
+					"raw": "{\n  \"email\": \"meenal2321.singh@mediologysoftware.com\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -384,7 +391,7 @@
 						}
 					}
 				},
-				"url": "http://127.0.0.1:8000/api/auth/v1/reset-password"
+				"url": "https://khaleejtimes-web.qtstage.io/authapi/v1/reset-password"
 			},
 			"response": []
 		},
@@ -396,7 +403,8 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": "http://127.0.0.1:8000/contentapi/v1/recommendedstories"
 			},
 			"response": []
 		}
