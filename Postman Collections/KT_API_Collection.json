@@ -93,7 +93,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "https://khaleejtimes-web.qtstage.io/contentapi/v1/getstorybyid/e5cf5d3e-547c-4034-89c4-82db5f434526",
+				"url": "https://khaleejtimes-web.qtstage.io/contentapi/v1/getstorybyid/971f1e07-48ea-4532-aae3-78b7d13bfec4",
 				"description": "Here 'e5cf5d3e-547c-4034-89c4-82db5f434526' is the story_id."
 			},
 			"response": []
