@@ -404,6 +404,15 @@
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": "http://127.0.0.1:8000/contentapi/v1/recommendedstories"
 			},
 			"response": []
