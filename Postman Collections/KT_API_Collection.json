@@ -425,7 +425,8 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": "http://127.0.0.1:8000/contentapi/v1/topstories"
 			},
 			"response": []
 		},
@@ -439,7 +440,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/contentapi/v1/recommendedstories?filter_key=category&filter_value=Sports",
+					"raw": "http://127.0.0.1:8000/contentapi/v1/recommendedstories?key=category&value=Sports",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -455,14 +456,12 @@
 					],
 					"query": [
 						{
-							"key": "filter_key",
-							"value": "category",
-							"type": "text"
+							"key": "key",
+							"value": "category"
 						},
 						{
-							"key": "filter_value",
-							"value": "Sports",
-							"type": "text"
+							"key": "value",
+							"value": "Sports"
 						}
 					]
 				}
