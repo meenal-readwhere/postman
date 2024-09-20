@@ -416,6 +416,18 @@
 				"url": "http://127.0.0.1:8000/contentapi/v1/recommendedstories"
 			},
 			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "50b91478-965b-4365-8213-c30470a28dda",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
