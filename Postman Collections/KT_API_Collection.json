@@ -396,7 +396,7 @@
 			"response": []
 		},
 		{
-			"name": "HomeRecommendedStories",
+			"name": "Home&StoryPageRecommendedStories",
 			"id": "18addb9c-85d8-4147-b525-8afc42e28571",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
