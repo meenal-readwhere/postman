@@ -426,7 +426,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "http://127.0.0.1:8000/contentapi/v1/topstories"
+				"url": "https://khaleejtimes-web.qtstage.io/contentapi/v1/topstories"
 			},
 			"response": []
 		},
@@ -440,15 +440,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/contentapi/v1/recommendedstories?key=category&value=Sports",
-					"protocol": "http",
+					"raw": "https://khaleejtimes-web.qtstage.io/contentapi/v1/recommendedstories?key=category&value=Sports",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"khaleejtimes-web",
+						"qtstage",
+						"io"
 					],
-					"port": "8000",
 					"path": [
 						"contentapi",
 						"v1",
