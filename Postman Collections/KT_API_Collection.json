@@ -396,7 +396,7 @@
 			"response": []
 		},
 		{
-			"name": "RecommendedStories",
+			"name": "HomeRecommendedStories",
 			"id": "18addb9c-85d8-4147-b525-8afc42e28571",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -418,8 +418,20 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "TopStories",
 			"id": "50b91478-965b-4365-8213-c30470a28dda",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "SectionRecommendedStories",
+			"id": "31daf5f8-1ef3-4979-8eaa-9ad60e2514ff",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
