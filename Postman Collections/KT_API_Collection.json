@@ -197,14 +197,14 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"email\": \"johndoe@example.com\",\n  \"password\": \"password\",\n  \"first-name\": \"john\",\n  \"last-name\": \"doe\",\n  \"username\": \"john\",\n  \"dont-login\":\"false\"\n}\n",
+					"raw": "{\n  \"email\": \"johndoe2@example.com\",\n  \"password\": \"password\",\n  \"username\": \"johndoe2@example.com\",\n  \"dont-login\":\"false\"\n}\n",
 					"options": {
 						"raw": {
 							"language": "json"
 						}
 					}
 				},
-				"url": "https://khaleejtimes-web.qtstage.io/authapi/v1/signup"
+				"url": "http://127.0.0.1:8000/authapi/v1/signup"
 			},
 			"response": []
 		},
