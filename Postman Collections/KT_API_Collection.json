@@ -474,7 +474,8 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": "https://khaleejtimes-web.qtstage.io/contentapi/v1/appdesignconfig"
 			},
 			"response": []
 		}
