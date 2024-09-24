@@ -273,14 +273,14 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\"set-session\" : true,\n  \"token\": \"eyJhbGciOiJSUzI1NiIsImtpZCI6IjVhYWZmNDdjMjFkMDZlMjY2Y2NlMzk1YjIxNDVjN2M2ZDQ3MzBlYTUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIzMTUyMDEwNzgwOTUtaGVwNjFwcWFmNDVsMW9zOWltNHM3OWI5ZG5nOHEwcGguYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIzMTUyMDEwNzgwOTUtOWloZ2xjbzZvYjQ4bmV2Nm03YTNyNDZwanRiZnFkM2YuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTUxNzYwNTE5NzM2Mjc0NjIzOTEiLCJub25jZSI6IjM1ODE2YWUzNGYwZDFmOTA2MGMzZDk1ZTgxYWY2Yzk2MWQ0YzFjZDc1YTRiMDBkNmUxZTAxODg5NmViNzcxMmUiLCJuYW1lIjoiTWVkaW9sb2d5IHQiLCJpYXQiOjE3MjcwODIxMjksImV4cCI6MTcyNzA4NTcyOX0.iHy9F-ibGfjZ-5_XTdo53WPIjf7ZFMKEwn1GHEN_yptz-SkJbO5YfzcmTCyFcyy4YGQcBnCqS4T-edApQDKv_gHC-4xXXSCWRoP4s-due4X3pV7rYM2NFfIw7YlCAw9gN5j83u7WKBWYf9XxzWFlABlpfxeXHyP1rwLa7ajYWV-jXxxAnMUh4fPZCLRY19MK0UVb2vBK5l4l8iRXXPaiM78-2tA27ds2UR85VbqIiV_cPHiB2HXflyiJUuW4gjt6aOhcd0mWvYIioQvo2QDgP2C0FBtb4w1mOcPKzzqxBpfub9EcM-iTRliPqeyOM86H4KqeZntAPa6lAO5EDKe7WQ\"\n}",
+					"raw": "{\n  \"set-session\": true,\n  \"token\": \"\",\n  \"user\": {\n    \"first-name\": \"Akki\",\n    \"last-name\": \"tyy\"\n  }\n}",
 					"options": {
 						"raw": {
 							"language": "json"
 						}
 					}
 				},
-				"url": "https://khaleejtimes-web.qtstage.io/api/auth/v1/login/google"
+				"url": "https://khaleejtimes-web.qtstage.io/authapi/v1/social_login/facebook"
 			},
 			"response": []
 		},
@@ -463,6 +463,18 @@
 						}
 					]
 				}
+			},
+			"response": []
+		},
+		{
+			"name": "AppDesignConfig",
+			"id": "1471633f-a1ad-4491-9370-4a7f90a25227",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
 			},
 			"response": []
 		}
