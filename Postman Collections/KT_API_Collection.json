@@ -423,7 +423,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"key\":\"category\",\n    \"value\":\"Sports news\"\n}",
+					"raw": "{\n    \"key\":\"category\",\n    \"value\":\"Sports\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -431,17 +431,19 @@
 					}
 				},
 				"url": {
-					"raw": "https://khaleejtimes-web.qtstage.io/contentapi/v1/recommendedstories",
-					"protocol": "https",
+					"raw": "http://127.0.0.1:8000/contentapi/v1/recommendedsectionstories",
+					"protocol": "http",
 					"host": [
-						"khaleejtimes-web",
-						"qtstage",
-						"io"
+						"127",
+						"0",
+						"0",
+						"1"
 					],
+					"port": "8000",
 					"path": [
 						"contentapi",
 						"v1",
-						"recommendedstories"
+						"recommendedsectionstories"
 					],
 					"query": [
 						{
