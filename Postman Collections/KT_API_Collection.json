@@ -400,7 +400,7 @@
 			"response": []
 		},
 		{
-			"name": "TopStories",
+			"name": "StoryTopStories",
 			"id": "50b91478-965b-4365-8213-c30470a28dda",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
