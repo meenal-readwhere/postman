@@ -107,7 +107,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "https://khaleejtimes-web.qtstage.io/contentapi/v1/getstorybyslug/uae-india-flights-major-airline-reduces-airfares-for-travellers-without-check-in-baggage",
+				"url": "https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/getstorybyslug/dubai-ruler-calls-out-3-managers-for-closed-door-policy-blocking-public-access",
 				"description": "Here 'uae-india-flights-major-airline-reduces-airfares-for-travellers-without-check-in-baggage' is the story_slug."
 			},
 			"response": []
