@@ -108,7 +108,7 @@
 				"method": "GET",
 				"header": [],
 				"url": "https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/getstorybyslug/dubai-ruler-calls-out-3-managers-for-closed-door-policy-blocking-public-access",
-				"description": "Here 'uae-india-flights-major-airline-reduces-airfares-for-travellers-without-check-in-baggage' is the story_slug."
+				"description": "Here 'dubai-ruler-calls-out-3-managers-for-closed-door-policy-blocking-public-access' is the story_slug.\n\n**Response**\n\n##### **Success (200)**\n\nA JSON object containing detailed information about the story.\n\n##### **Example Response**\n\n```\n{\n  \"status\": \"success\",\n  \"data\": {\n    \"id\": \"12345\",\n    \"headline\": \"UAE-India Flights: Major Airline Reduces Airfares for Travellers Without Check-in Baggage\",\n    \"subheadline\": \"Affordable options for budget-conscious travellers.\",\n    \"author\": \"John Doe\",\n    \"published_at\": \"2024-12-01T08:00:00Z\",\n    \"sections\": [\n      {\n        \"id\": \"6789\",\n        \"name\": \"Travel\",\n        \"slug\": \"travel\"\n      }\n    ],\n    \"content\": [\n      {\n        \"type\": \"text\",\n        \"value\": \"Details about the fare reductions and conditions.\"\n      },\n      {\n        \"type\": \"image\",\n        \"url\": \"https://example.com/image.jpg\",\n        \"alt_text\": \"Airline promotional image.\"\n      }\n    ],\n    \"seo\": {\n      \"meta_title\": \"UAE-India Flights: Low-cost Travel Options\",\n      \"meta_description\": \"Details on how travellers can save money by opting out of check-in baggage.\",\n      \"canonical_url\": \"https://example.com/uae-india-flights\"\n    }\n  }\n}\n\n ```\n\n##### **Error (404)**"
 			},
 			"response": []
 		},
