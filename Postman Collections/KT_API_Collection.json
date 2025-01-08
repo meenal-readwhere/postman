@@ -254,14 +254,14 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"set-session\": true,\n  \"token\": \"\",\n  \"user\": {\n    \"first-name\": \"Akki\",\n    \"last-name\": \"tyy\"\n  }\n}",
+					"raw": "{\n  \"set-session\": true,\n  \"token\": \"EAABdxUGSFbkBOwubZCmIDSMB3e5fyy3qPZBApMDZA4WRBrGTnDZCTsJbYnYaOOWpZBWCmTCcH9slIJtOL15Ty3Gv1IZAk1ZCSwJNTZBysY4F6B5spSmcNOWi74UVI4ZBVrAR6SlT6COUhnmQSRbG1guIO7GF8wN6oJGHV98u0JZCN9rTEXPq4zD96ZAr3ieMJ4UN9VvMLr3CxX1ZB4GlPsVXo1ijMfXUdV59zt0lbaGpb9BfzvXGmNgfjAGwsBT1kQZDZD\",\n   \n}",
 					"options": {
 						"raw": {
 							"language": "json"
 						}
 					}
 				},
-				"url": "https://khaleejtimes-web.qtstage.io/authapi/v1/social_login/facebook"
+				"url": "http://127.0.0.1:8000/authapi/v1/social_login/facebook"
 			},
 			"response": []
 		},
