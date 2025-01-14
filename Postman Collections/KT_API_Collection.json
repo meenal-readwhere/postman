@@ -124,10 +124,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://khaleejtimes-web.qtstage.io/contentapi/v1/searchstories?query=dubai&type&sort&published_after&published_before&author&tag&page&records",
+					"raw": "https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/searchstories?query=dubai&type&sort&published_after&published_before&author&tag&page&records",
 					"protocol": "https",
 					"host": [
-						"khaleejtimes-web",
+						"khaleejtimes-uat-web",
 						"qtstage",
 						"io"
 					],
@@ -139,48 +139,39 @@
 					"query": [
 						{
 							"key": "query",
-							"value": "dubai",
-							"type": "text"
+							"value": "dubai"
 						},
 						{
 							"key": "type",
-							"value": null,
-							"type": "text"
+							"value": null
 						},
 						{
 							"key": "sort",
-							"value": null,
-							"type": "text"
+							"value": null
 						},
 						{
 							"key": "published_after",
-							"value": null,
-							"type": "text"
+							"value": null
 						},
 						{
 							"key": "published_before",
-							"value": null,
-							"type": "text"
+							"value": null
 						},
 						{
 							"key": "author",
-							"value": null,
-							"type": "text"
+							"value": null
 						},
 						{
 							"key": "tag",
-							"value": null,
-							"type": "text"
+							"value": null
 						},
 						{
 							"key": "page",
-							"value": null,
-							"type": "text"
+							"value": null
 						},
 						{
 							"key": "records",
-							"value": null,
-							"type": "text"
+							"value": null
 						}
 					]
 				},
