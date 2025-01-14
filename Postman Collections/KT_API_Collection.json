@@ -30,7 +30,7 @@
 				"method": "GET",
 				"header": [],
 				"url": "https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/gethomecollection",
-				"description": "#### **Endpoint**\n\n`GET https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/gethomecollection`\n\n---\n\n#### **Description**\n\nThis endpoint retrieves detailed information about a specific story identified by its `story_slug`.\n\n---"
+				"description": "#### **Endpoint**\n\n`GET https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/gethomecollection`\n\n---\n\n#### **Description**\n\nThis endpoint retrieves the home collection,and its associated child collections\n\n---"
 			},
 			"response": []
 		},
