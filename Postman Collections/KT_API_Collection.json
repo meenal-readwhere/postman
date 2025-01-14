@@ -198,7 +198,7 @@
 					}
 				},
 				"url": "https://khaleejtimes-uat-web.qtstage.io/authapi/v1/signup",
-				"description": "#### **Endpoint**\n\n`POST https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/getstorybyslug/{story_slug}`\n\n---\n\n#### **Description**\n\nThis endpoint allows a user to sign up by providing their email, password, username, and an optional flag indicating whether they should be logged in immediately after signup.\n\n---\n\n#### **Request Body**\n\n| Parameter | Type | Description |\n| --- | --- | --- |\n| `email` |  | The email address of the user. Example: `uae-india-flights-major-airline-reduces-airfares-for-travellers-without-check-in-baggage`. |\n| `password` |  |  |\n| `username` |  |  |\n|  |  |  |\n\n**Response**"
+				"description": "#### **Endpoint**\n\n`POST https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/getstorybyslug/{story_slug}`\n\n---\n\n#### **Description**\n\nThis endpoint allows a user to sign up by providing their email, password, username, and an optional flag indicating whether they should be logged in immediately after signup.\n\n---\n\n#### **Request Body**\n\n| Parameter | Type | Description |\n| --- | --- | --- |\n| `email` |  | The email address of the user. Example: `johndoe5@example.com`. |\n| `password` |  | The password for the new account. Example: `password`. |\n| `username` |  | The username for the new account. Example: `password`. |\n|  |  |  |\n\n**Response**"
 			},
 			"response": []
 		},
