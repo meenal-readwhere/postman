@@ -58,7 +58,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/getcollectionstories/uae?page=2&records=2",
+					"raw": "https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/getcollectionstories/uae?page=2&records=1",
 					"protocol": "https",
 					"host": [
 						"khaleejtimes-uat-web",
@@ -78,7 +78,7 @@
 						},
 						{
 							"key": "records",
-							"value": "2"
+							"value": "1"
 						}
 					]
 				},
