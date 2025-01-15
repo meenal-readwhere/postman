@@ -544,6 +544,23 @@
 				"description": "#### **Description**\n\nThis endpoint returns breaking news\n\n---\n\n**Response**\n\n##### **Success (200)**\n\nA JSON object containing breaking news stories.\n\n##### **Example Response**\n\n``` json\n{\n    \"status\": true,\n    \"message\": \"Breaking News Fetched\",\n    \"data\": [\n        {\n            \"headline\": \"ISA 2nd TEST 13 JAN\",\n            \"slug\": \"\",\n            \"id\": \"\"\n        },\n        {\n            \"headline\": \"Isa testing 13 Jan\",\n            \"slug\": \"\",\n            \"id\": \"\"\n        },\n        {\n            \"headline\": \"Isa and Reeha Breaking\",\n            \"slug\": \"\",\n            \"id\": \"\"\n        },\n        {\n            \"headline\": \"ISA Testing Breaking News Speed\",\n            \"slug\": \"travel/reeha-test-dubai-motorists-can-save-up-to-dh1500-in-service-costs-with-police-initiative-at-gas-stations\",\n            \"id\": \"3d12d4d5-5297-40f3-88ff-db4230588aa5\"\n        },\n        {\n            \"headline\": \"Test : Dubai: How to personalise your Nol card for greater benefits BurJuman Mall unveils multi-level Max Fashion this Ramadan benefits\",\n            \"slug\": \"\",\n            \"id\": \"\"\n        }\n    ]\n}\n\n ```"
 			},
 			"response": []
+		},
+		{
+			"name": "GA4TrendingStories",
+			"id": "ddbe2de2-b2c5-48db-9e25-b9fc6c6a907a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/ga4stories",
+				"description": "#### **Description**\n\nThis endpoint returns GA4 trending stories\n\n---\n\n**Response**\n\n##### **Success (200)**\n\nA JSON object containing GA4 trending stories.\n\n##### **Example Response**\n\n``` json\n{\n    \"status\": true,\n    \"message\": \"Breaking News Fetched\",\n    \"data\": [\n        {\n            \"headline\": \"ISA 2nd TEST 13 JAN\",\n            \"slug\": \"\",\n            \"id\": \"\"\n        },\n        {\n            \"headline\": \"Isa testing 13 Jan\",\n            \"slug\": \"\",\n            \"id\": \"\"\n        },\n        {\n            \"headline\": \"Isa and Reeha Breaking\",\n            \"slug\": \"\",\n            \"id\": \"\"\n        },\n        {\n            \"headline\": \"ISA Testing Breaking News Speed\",\n            \"slug\": \"travel/reeha-test-dubai-motorists-can-save-up-to-dh1500-in-service-costs-with-police-initiative-at-gas-stations\",\n            \"id\": \"3d12d4d5-5297-40f3-88ff-db4230588aa5\"\n        },\n        {\n            \"headline\": \"Test : Dubai: How to personalise your Nol card for greater benefits BurJuman Mall unveils multi-level Max Fashion this Ramadan benefits\",\n            \"slug\": \"\",\n            \"id\": \"\"\n        }\n    ]\n}\n\n ```"
+			},
+			"response": []
 		}
 	]
 }
