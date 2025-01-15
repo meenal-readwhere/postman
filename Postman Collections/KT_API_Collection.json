@@ -707,7 +707,8 @@
 							"value": "1"
 						}
 					]
-				}
+				},
+				"description": "Here 'shivam-sharma is the author_slug.\n\n#### **Endpoint**\n\n`GET https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/getstorybyslug/{story_slug}`\n\n---\n\n#### **Description**\n\nThis endpoint retrieves detailed information about a specific story identified by its `story_id`.\n\n---\n\n#### **Path Parameter**\n\n| Parameter | Type | Description |\n| --- | --- | --- |\n| `story_id` | String | The unique identifier (id) of the story. Example: `91b81a58-cde3-43e1-aef8-d732c8258b09` |\n\n**Response**"
 			},
 			"response": []
 		},
