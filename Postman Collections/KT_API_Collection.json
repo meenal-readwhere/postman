@@ -708,7 +708,7 @@
 						}
 					]
 				},
-				"description": "Here 'shivam-sharma is the author_slug.\n\n#### **Endpoint**\n\n`GET https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/authorstories`\n\n---\n\n#### **Description**\n\nThis endpoint retrieves stories of a particular author identified by its author_slug. The results can also be paginated using `page` and `records` parameters.\n\n---\n\n#### **Query Parameter**\n\n| Parameter | Type | Description |\n| --- | --- | --- |\n| `query` | String | Query term. Example: `dubai` |\n| `type` | String | The type of story to filter by like all, photo, video, text etc |\n| `sort` | Boolean | Determines the sort order. true for ascending and false for descending. |"
+				"description": "Here 'shivam-sharma is the author_slug.\n\n#### **Endpoint**\n\n`GET https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/authorstories`\n\n---\n\n#### **Description**\n\nThis endpoint retrieves stories of a particular author identified by its author_slug. The results can also be paginated using `page` and `records` parameters.\n\n---\n\n#### **Query Parameter**\n\n| Parameter | Type | Description |\n| --- | --- | --- |\n| `author` | String | Author slug. Example: `shivam-sharma` |\n| `page` | Integer | The page number for pagination. Default : 1 |\n| `records` | Integer | The number of records per page. Default : 10 |"
 			},
 			"response": []
 		},
