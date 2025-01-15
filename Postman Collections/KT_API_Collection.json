@@ -668,6 +668,48 @@
 				"description": "#### **Endpoint**\n\n`GET https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/goldforexrate`\n\n---\n\n#### **Description**\n\nThis endpoint retrieves the gold forex rates.\n\n**Response**\n\n##### **Success (200)**\n\nA JSON object containing detailed information about gold forex rates including gold rate,silver rate,fuel prices etc.\n\n##### **Example Response**\n\n``` json\n{\n    \"status\": true,\n    \"message\": \"Gold and Forex Rates Fetched\",\n    \"data\": {\n        \"fuel_prices\": {\n            \"Super 98\": \"2.61\",\n            \"Special 95\": \"2.50\",\n            \"E Plus 91\": \"2.43\",\n            \"Diesel\": \"2.68\"\n        },\n        \"uae_draft_rates\": {\n            \"Indian Rupee (INR)\": \"22.85\",\n            \"Pakistani Rupee (PKR)\": \"75.62\"\n        },\n        \"uae_gold_rate\": {\n            \"Ounce \": \"9,749.22\",\n            \"24K \": \"321.25\"\n        },\n        \"silver_rate\": {\n            \"Kilo (AED)\": \"3,735\",\n            \"Kilo (USD)\": \"1,017.71\"\n        }\n    }\n}\n\n ```"
 			},
 			"response": []
+		},
+		{
+			"name": "AuthorStories",
+			"id": "80355c5c-d030-4ff1-9022-890ab9310bd2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/contentapi/v1/authorstories?author=shivam-sharma&page=1&records=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"contentapi",
+						"v1",
+						"authorstories"
+					],
+					"query": [
+						{
+							"key": "author",
+							"value": "shivam-sharma"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "records",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
