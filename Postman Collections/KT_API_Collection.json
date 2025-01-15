@@ -595,7 +595,7 @@
 						}
 					]
 				},
-				"description": "#### **Endpoint**\n\n`GET https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/getcollectionstoriesformenu`\n\n---\n\n#### **Description**\n\nThis endpoint retrieves the stories for menu.\n\n---\n\n#### **Path Parameter**\n\n| Parameter | Type | Description |\n| --- | --- | --- |\n| `slugs` | String | The unique identifier (id) of the story. Example: `91b81a58-cde3-43e1-aef8-d732c8258b09` |\n\n**Response**\n\n##### **Success (200)**\n\nA JSON object containing stories for menu grouped by collection_slug.\n\n##### **Example Response**\n\n``` json\n{\n    \"status\": true,\n    \"message\": \"Data Fetched\",\n    \"data\": {\n        \"side_menu\": {\n\n ```"
+				"description": "#### **Endpoint**\n\n`GET https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/getcollectionstoriesformenu`\n\n---\n\n#### **Description**\n\nThis endpoint retrieves the stories for menu.\n\n---\n\n#### **Path Parameter**\n\n| Parameter | Type | Description |\n| --- | --- | --- |\n| `slugs` | String | A comma-separated list of unique identifiers (slugs) representing the story collections to fetch. Example: `uae,life-and-living`. |\n\n**Response**\n\n##### **Success (200)**\n\nA JSON object containing stories for menu grouped by collection_slug.\n\n##### **Example Response**\n\n``` json\n{\n    \"status\": true,\n    \"message\": \"Data Fetched\",\n    \"data\": {\n        \"side_menu\": {\n\n ```"
 			},
 			"response": []
 		}
