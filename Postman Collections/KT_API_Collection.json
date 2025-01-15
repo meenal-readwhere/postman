@@ -758,6 +758,58 @@
 				"url": "https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/trendingstoriesforhome"
 			},
 			"response": []
+		},
+		{
+			"name": "KTShows - Action specific data",
+			"id": "6397bd5c-f573-4b41-aba0-d133bb943c6b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/ktshows?action=topVideos",
+					"protocol": "https",
+					"host": [
+						"khaleejtimes-uat-web",
+						"qtstage",
+						"io"
+					],
+					"path": [
+						"contentapi",
+						"v1",
+						"ktshows"
+					],
+					"query": [
+						{
+							"key": "action",
+							"value": "topVideos",
+							"type": "text"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "KTShows-All data",
+			"id": "bb0c1e9a-61eb-41c4-beab-79e41525334b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/ktshows/all"
+			},
+			"response": []
 		}
 	]
 }
