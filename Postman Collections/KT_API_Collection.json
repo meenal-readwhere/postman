@@ -682,12 +682,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8000/contentapi/v1/authorstories?author=shivam-sharma&page=1&records=1",
-					"protocol": "http",
+					"raw": "https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/authorstories?author=shivam-sharma&page=1&records=1",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"khaleejtimes-uat-web",
+						"qtstage",
+						"io"
 					],
-					"port": "8000",
 					"path": [
 						"contentapi",
 						"v1",
@@ -708,7 +709,7 @@
 						}
 					]
 				},
-				"description": "Here 'shivam-sharma is the author_slug.\n\n#### **Endpoint**\n\n`GET https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/authorstories`\n\n---\n\n#### **Description**\n\nThis endpoint retrieves stories of a particular author identified by its author_slug. The results can also be paginated using `page` and `records` parameters.\n\n---\n\n#### **Query Parameter**\n\n| Parameter | Type | Description |\n| --- | --- | --- |\n| `author` | String | Author slug. Example: `shivam-sharma` |\n| `page` | Integer | The page number for pagination. Default : 1 |\n| `records` | Integer | The number of records per page. Default : 10 |"
+				"description": "Here 'shivam-sharma is the author_slug.\n\n#### **Endpoint**\n\n`GET https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/authorstories`\n\n---\n\n#### **Description**\n\nThis endpoint retrieves stories of a particular author identified by its author_slug. The results can also be paginated using `page` and `records` parameters.\n\n---\n\n#### **Query Parameter**\n\n| Parameter | Type | Description |\n| --- | --- | --- |\n| `author` | String | Author slug. Example: `shivam-sharma` |\n| `page` | Integer | The page number for pagination. Default : 1 |\n| `records` | Integer | The number of records per page. Default : 10 |\n\n**Response**\n\n##### **Success (200)**\n\nA JSON object containing stories of the author.\n\n##### **Example Response**\n\n``` json\n{\n    \"status\": true,\n    \"message\": \"Story Data Fetched\",\n    \"data\": {\n        \"id\": \"91b81a58-cde3-43e1-aef8-d732c8258b09\",\n        \"headline\": \"Episode 1: Gulf Times\",\n        \"wordcount\": 8,\n\n ```"
 			},
 			"response": []
 		},
