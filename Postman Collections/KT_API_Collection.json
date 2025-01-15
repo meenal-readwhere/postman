@@ -473,14 +473,15 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "WeatherForecast",
 			"id": "965bf49c-e684-431d-9b17-032e858c0ee6",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": "https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/weather"
 			},
 			"response": []
 		}
