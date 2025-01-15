@@ -270,10 +270,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://khaleejtimes.qtstage.io/api/auth/v1/access-token/integrations/:integrationId",
+					"raw": "https://khaleejtimes-uat-web.qtstage.io/api/auth/v1/access-token/integrations/:integrationId",
 					"protocol": "https",
 					"host": [
-						"khaleejtimes",
+						"khaleejtimes-uat-web",
 						"qtstage",
 						"io"
 					],
@@ -324,7 +324,7 @@
 			"request": {
 				"method": "DELETE",
 				"header": [],
-				"url": "https://khaleejtimes-web.qtstage.io/api/auth/v1/delete_user"
+				"url": "https://khaleejtimes-uat-web.qtstage.io/api/auth/v1/delete_user"
 			},
 			"response": []
 		},
