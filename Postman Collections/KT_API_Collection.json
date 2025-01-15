@@ -404,7 +404,8 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/topstories"
+				"url": "https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/topstories",
+				"description": "#### **Endpoint**\n\n`GET https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/topstories`\n\n---\n\n#### **Description**\n\nThis endpoint retrieves top recommended stories.\n\n---\n\n**Response**\n\n##### **Success (200)**\n\nA JSON object containing detailed information of the top recommended stories.\n\n##### **Example Response**\n\n``` json\n{\n\"status\": true,\n\"message\": \"Story Data Fetched\",\n\"data\": {\n\"id\": \"fa32fd13-32bf-47dd\n\n ```"
 			},
 			"response": []
 		},
