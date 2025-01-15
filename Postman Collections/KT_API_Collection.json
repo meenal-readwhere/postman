@@ -485,6 +485,19 @@
 				"description": "#### **Endpoint**\n\n`GET https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/weather`\n\n---\n\n#### **Description**\n\nThis endpoint retrieves detailed information about the current weather\n\n---\n\n**Response**\n\n##### **Success (200)**\n\nA JSON object containing detailed information about the weather.\n\n##### **Example Response**\n\n``` json\n{\n    \"status\": true,\n    \"message\": \"Weather Forecast Fetched\",\n    \"data\": {\n        \"temperature\": \"18.9\",\n        \"weatherType\": \"weather-sun.svg\",\n        \"weatherIcon\": \"weather-sun\"\n    }\n}\n\n ```"
 			},
 			"response": []
+		},
+		{
+			"name": "HomeDeferedCollection",
+			"id": "4c250c30-d278-49c9-ad9d-d1f919e7d81b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"description": "#### **Endpoint**\n\n`GET https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/weather`\n\n---\n\n#### **Description**\n\nThis endpoint retrieves detailed information about the current weather\n\n---\n\n**Response**\n\n##### **Success (200)**\n\nA JSON object containing detailed information about the weather.\n\n##### **Example Response**\n\n``` json\n{\n    \"status\": true,\n    \"message\": \"Weather Forecast Fetched\",\n    \"data\": {\n        \"temperature\": \"18.9\",\n        \"weatherType\": \"weather-sun.svg\",\n        \"weatherIcon\": \"weather-sun\"\n    }\n}\n\n ```"
+			},
+			"response": []
 		}
 	]
 }
