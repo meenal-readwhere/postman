@@ -631,7 +631,7 @@
 						}
 					]
 				},
-				"description": "#### **Endpoint**\n\n`GET https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/getcollectionstoriesformenu`\n\n---\n\n#### **Description**\n\nThis endpoint retrieves the trending stories for a particular section.\n\n---\n\n#### **Query Parameter**\n\n| Parameter | Type | Description |\n| --- | --- | --- |\n| `section_name` | String | A unique identifiers (slugs) representing the section for which stories are to be fetched. Example: `life-and-living`. |\n\n**Response**\n\n##### **Success (200)**\n\nA JSON object containing stories for menu grouped by collection_slug.\n\n##### **Example Response**"
+				"description": "#### **Endpoint**\n\n`GET https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/trendingstories`\n\n---\n\n#### **Description**\n\nThis endpoint retrieves the trending stories for a particular section.\n\n---\n\n#### **Query Parameter**\n\n| Parameter | Type | Description |\n| --- | --- | --- |\n| `section_name` | String | A unique identifiers (slugs) representing the section for which stories are to be fetched. Example: `life-and-living`. |\n\n**Response**\n\n##### **Success (200)**\n\nA JSON object containing stories for menu grouped by collection_slug.\n\n##### **Example Response**\n\n``` json\n{\n    \"status\": true,\n    \"message\": \"Data Fetched\",\n    \"data\": {\n\n ```"
 			},
 			"response": []
 		}
