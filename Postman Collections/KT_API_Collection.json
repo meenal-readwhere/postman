@@ -600,7 +600,7 @@
 			"response": []
 		},
 		{
-			"name": "TrendingStoriesForSection",
+			"name": "TrendingStories",
 			"id": "49ef6d50-4c56-48e6-a991-5e9c03829bfd",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
