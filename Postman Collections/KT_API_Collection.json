@@ -726,6 +726,38 @@
 				"url": "https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/infinitestories"
 			},
 			"response": []
+		},
+		{
+			"name": "DeferedCollectionSections",
+			"id": "80180599-30b8-4a75-ad42-a24dfd9ff934",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/getdeferedcollectionsections/uae"
+			},
+			"response": []
+		},
+		{
+			"name": "TrendingStoriesForHome",
+			"id": "92f14622-140a-433e-91e9-494d528a02db",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/trendingstoriesforhome"
+			},
+			"response": []
 		}
 	]
 }
