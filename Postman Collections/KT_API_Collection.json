@@ -311,7 +311,7 @@
 						"disabled": true
 					}
 				],
-				"url": "https://khaleejtimes-web.qtstage.io/api/auth/v1/users/me"
+				"url": "https://khaleejtimes-uat-web.qtstage.io/api/auth/v1/users/me"
 			},
 			"response": []
 		},
@@ -346,7 +346,7 @@
 						}
 					}
 				},
-				"url": "https://khaleejtimes-web.qtstage.io/authapi/v1/forgot_password"
+				"url": "https://khaleejtimes-uat-web.qtstage.io/authapi/v1/forgot_password"
 			},
 			"response": []
 		},
