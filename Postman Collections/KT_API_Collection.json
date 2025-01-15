@@ -523,7 +523,8 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/prayertimingsfortoday"
+				"url": "https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/prayertimingsfortoday",
+				"description": "#### **Description**\n\nThis endpoint returns prayer timings based on various parameters, such as location, for_today, for_carousel.\n\n---\n\n#### **Query Parameter**\n\n| Parameter | Type | Description |\n| --- | --- | --- |\n| `location` | String | The location for which prayer timings are requested. Default : `'dubai'` . Example: `dubai` |\n| `for_today` | Boolean | Indicates whether the request is for today's timings. Default : `false` |\n| `for_carousel` | Boolean | Indicates if the timings should be adjusted for carousel display. Default : `false` |\n\n**Response**\n\n##### **Success (200)**\n\nA JSON object containing prayer timings, dynamically filtered based on the provided query parameters such as `location`, `for_today`, and `for_carousel`.\n\n##### **Example Response**\n\n``` json\n{\n    \"status\": true,\n    \"message\": \"Prayer T\n\n ```"
 			},
 			"response": []
 		}
