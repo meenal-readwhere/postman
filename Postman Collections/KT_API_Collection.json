@@ -346,7 +346,8 @@
 						}
 					}
 				},
-				"url": "https://khaleejtimes-uat-web.qtstage.io/authapi/v1/forgot_password"
+				"url": "https://khaleejtimes-uat-web.qtstage.io/authapi/v1/forgot_password",
+				"description": "#### **Endpoint**\n\n`GET https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/forgot_password`\n\n---\n\n#### **Description**\n\nThis endpoint handles forgot password, it sends a password reset link to the user's email\n\n**Response**\n\n##### **Success (200)**\n\nA JSON object containing status of sent link.\n\n##### **Example Response**\n\n``` json\n{\n    \"message\": \"Reset password link was sent successfully\",\n    \"token\": \"e335dd97-768d-4dd4-9fc3-120d798237ea\"\n}\n\n ```"
 			},
 			"response": []
 		},
