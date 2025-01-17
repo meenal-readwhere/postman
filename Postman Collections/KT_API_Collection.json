@@ -726,7 +726,7 @@
 				"method": "GET",
 				"header": [],
 				"url": "https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/infinitestories",
-				"description": "#### **Endpoint**\n\n`GET https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/getmenugroups`\n\n---\n\n#### **Description**\n\nThis endpoint retrieves the menu groups and their associated items.\n\n**Response**\n\n##### **Success (200)**\n\nA JSON object containing detailed information about the menu groups.\n\n##### **Example Response**\n\n``` json\n{\n    \"status\": true,\n    \"message\": \"Data Fetched\",\n    \"data\": {\n        \"side_menu\": {\n            \"id\": 6195,\n            \"slug\": \"\n\n ```"
+				"description": "#### **Endpoint**\n\n`GET https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/infinitestories`\n\n---\n\n#### **Description**\n\nThis endpoint retrieves the recommended stories for infinite scroll .\n\n**Response**\n\n##### **Success (200)**\n\nA JSON object containing recommended stories.\n\n##### **Example Response**\n\n``` json\n{\n    \"status\": true,\n    \"message\": \"Data Fetched\",\n    \"data\": {\n        \"side_menu\": {\n            \"id\": 6195,\n            \"slug\": \"\n\n ```"
 			},
 			"response": []
 		},
