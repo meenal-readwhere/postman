@@ -742,7 +742,8 @@
 				},
 				"method": "GET",
 				"header": [],
-				"url": "https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/getdeferedcollectionsections/uae"
+				"url": "https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/getdeferedcollectionsections/uae",
+				"description": "#### **Endpoint**\n\n`GET https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/getmenugroups`\n\n---\n\n#### **Description**\n\nThis endpoint retrieves the menu groups and their associated items.\n\n**Response**\n\n##### **Success (200)**\n\nA JSON object containing detailed information about the menu groups.\n\n##### **Example Response**\n\n``` json\n{\n    \"status\": true,\n    \"message\": \"Data Fetched\",\n    \"data\": {\n        \"side_menu\": {\n            \"id\": 6195,\n            \"slug\": \"sid\n\n ```"
 			},
 			"response": []
 		},
@@ -758,7 +759,8 @@
 				},
 				"method": "GET",
 				"header": [],
-				"url": "https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/trendingstoriesforhome"
+				"url": "https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/trendingstoriesforhome",
+				"description": "#### **Endpoint**\n\n`GET https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/trendingstoriesforhome`\n\n---\n\n#### **Description**\n\nThis endpoint retrieves the most popular stories for home page.\n\n**Response**\n\n##### **Success (200)**\n\nA JSON object containing detailed stories.\n\n##### **Example Response**\n\n``` json\n{\n    \"status\": true,\n    \"message\": \"Data Fetched\",\n    \"data\": {\n        \"side_menu\": {\n            \"id\": 6195,\n            \"slug\": \"sid\n\n ```"
 			},
 			"response": []
 		},
@@ -794,7 +796,8 @@
 							"type": "text"
 						}
 					]
-				}
+				},
+				"description": "#### **Endpoint**\n\n`GET https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/getmenugroups`\n\n---\n\n#### **Description**\n\nThis endpoint retrieves the menu groups and their associated items.\n\n**Response**\n\n##### **Success (200)**\n\nA JSON object containing detailed information about the menu groups.\n\n##### **Example Response**\n\n``` json\n{\n    \"status\": true,\n    \"message\": \"Data Fetched\",\n    \"data\": {\n        \"side_menu\": {\n            \"id\": 6195,\n            \"slug\": \"sid\n\n ```"
 			},
 			"response": []
 		},
@@ -810,7 +813,8 @@
 				},
 				"method": "GET",
 				"header": [],
-				"url": "https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/ktshows/all"
+				"url": "https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/ktshows/all",
+				"description": "#### **Endpoint**\n\n`GET https://khaleejtimes-uat-web.qtstage.io/contentapi/v1/getmenugroups`\n\n---\n\n#### **Description**\n\nThis endpoint retrieves the menu groups and their associated items.\n\n**Response**\n\n##### **Success (200)**\n\nA JSON object containing detailed information about the menu groups.\n\n##### **Example Response**\n\n``` json\n{\n    \"status\": true,\n    \"message\": \"Data Fetched\",\n    \"data\": {\n        \"side_menu\": {\n            \"id\": 6195,\n            \"slug\": \"sid\n\n ```"
 			},
 			"response": []
 		}
