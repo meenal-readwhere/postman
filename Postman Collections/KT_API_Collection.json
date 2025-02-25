@@ -3,7 +3,7 @@
 		"_postman_id": "07727cc1-3fbf-4931-8074-30fe976671e9",
 		"name": "KT API's",
 		"description": "KhaleejTimes API's for frontend development",
-		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+		"schema": "https://schema.postman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
 		{
@@ -182,6 +182,29 @@
 		{
 			"name": "SignUp",
 			"id": "f9706ad0-d221-479d-b28c-fbd0c89a1d3d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"johndoe5@example.com\",\n  \"password\": \"password\",\n  \"username\": \"johndoe5@example.com\",\n  \"dont-login\":\"false\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://khaleejtimes-uat-web.qtstage.io/authapi/v1/signup",
+				"description": "#### **Endpoint**\n\n`POST https://khaleejtimes-uat-web.qtstage.io/authapi/v1/signup`\n\n---\n\n#### **Description**\n\nThis endpoint allows a user to sign up by providing their email, password, username, and an optional flag indicating whether they should be logged in immediately after signup.\n\n---\n\n#### **Request Body**\n\n| Parameter | Type | Description |\n| --- | --- | --- |\n| `email` | String | The email address of the user. Example: `johndoe5@example.com`. |\n| `password` | String | The password for the new account. Example: `password`. |\n| `username` | String | The username for the new account. Example: `password`. |\n| `dont-login` | Boolean | A flag to indicate whether to prevent automatic login. |\n\n**Response**\n\n##### **Success (200)**\n\nA JSON object containing response of the signup attempt.\n\n##### **Example Response**\n\n``` json\n{\n    \"user\": {\n        \"id\": 3019782,\n        \"name\": null,\n        \"email\": \"johndoe5@example.com\",\n        \"created-at\": 1736858232810,\n        \"avatar-url\": null,\n        \"first-name\": null,\n        \"last-name\": null,\n        \"verification-status\": null,\n        \"metadata\": null,\n        \"avatar-s3-key\": null,\n        \"slug\": null,\n        \"communication-email\": null,\n        \"phone-number\": null,\n        \"updated-at\": 1736858232810,\n        \"is-tfa-enabled\": false,\n        \"verified-mediums\": [],\n        \"login-phone-number\": null\n    }\n}\n\n ```"
+			},
+			"response": []
+		},
+		{
+			"name": "SignUp Copy",
+			"id": "5274a5c9-5406-4c3a-ab3a-8284ca588e01",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
